@@ -53,7 +53,7 @@ def _make_pretty(cost_dict):
     return cost_dict
 
 
-def main(df, people_col, price_col):
+def parse_dataframe(df, people_col, price_col):
 
     # Get attendees
     attendees = _get_attendees(df, people_col)
