@@ -1,0 +1,5 @@
+# Local package
+-e .
+
+# External requirements
+pandas>1.0.1
