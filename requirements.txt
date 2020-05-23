@@ -2,4 +2,5 @@
 -e .
 
 # External requirements
+click
 pandas>1.0.1
