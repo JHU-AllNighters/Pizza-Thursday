@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Pizza Thursday Wizard
+    </title>
+</head>
+
+<body>
+    <form action="/external/" method="post">
+        {% csrf_token %}
+        <label for="shared_url">Google Sheet shared link: </label>
+        <input id="url_id" type="url" name="shared_url"
+            value="https://docs.google.com/spreadsheets/d/15sRWR32As-zwODK8xBzQQ_1bOPcOchY2jD7_9_omGCY/edit?usp=sharing">
+        <input type="submit" value="OK">
+        <pre>{{costs}}</pre>
+    </form>
+</body>
+
+</html>
