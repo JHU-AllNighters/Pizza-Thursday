@@ -1,6 +1,7 @@
 import json
 
-from src import read_gsheet, parse_dataframe
+from .io import read_gsheet
+from .parse import parse_dataframe
 
 
 def main(shared_url):
