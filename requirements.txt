@@ -1,3 +1,6 @@
+# Local package
+-e .
+
 # External requirements
 pandas>1.0.1
 django>3.0.6
